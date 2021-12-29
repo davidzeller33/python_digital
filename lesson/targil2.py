@@ -5,9 +5,8 @@
 # % (traz a sobra da divisao de numeros inteiros)
 
 
-num=4597
-num2=num%1000
-num3=num%100
+num=int(input("enter a number with 4 digit: "))
 
-print("Alafim=" + str(num//1000) + "\nMeot=" + str(num2//100) + "\nAssarot=" + str(num3//10) + "\nAhadot=" + str(num%10))
+
+print("Alafim=" + str(num//1000) + "\nMeot=" + str((num%1000)//100) + "\nAssarot=" + str((num%100)//10) + "\nAhadot=" + str(num%10))
 
