@@ -1,5 +1,5 @@
 #conditions
-## ==(igual) =>(igual ou maior) =<(igual ou menor)
+## !=(nao igual) ==(igual) =>(igual ou maior) =<(igual ou menor)
 ## and/or/not/in/is
 ##else / elif
 a=input("enter your name: ")
