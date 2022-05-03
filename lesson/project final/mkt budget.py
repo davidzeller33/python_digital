@@ -20,7 +20,7 @@ budget=int(num-cost)
 
 print("--------------\nCost of all campaign: " + str((a*100)+(b*50)) + "ILS\nTax: " + str((((a*100)+(b*50))*0.17) + "ILS\nTotal cost of the campaign: " + str(cost) + "ILS\n------------")
 
-if budget>=0:
+if budget=0 or budget>0:
     print("successful!!!")
 else:
     print("Your need to add on your budget " + str(cost - num) + "ILS.")

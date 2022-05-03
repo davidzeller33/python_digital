@@ -17,6 +17,7 @@ If you guess:
 
 from random import randint
 from time import sleep
+
 print("Welcome to our Lotto: \nEach game cost 3 ILS\n")
 num=int(input("Enter how much money do you want to play: "))
 turns=int(num//3)
@@ -25,11 +26,17 @@ sleep(3)
 price=0
 for i in range(turns):
     print("---------------------\nRound number: " + str(i+1) + " :\n")
-    num = int(input("Enter your bet: ")
+    bet1=int("Enter six numbers between 1-37:\nFirst Number: ")
+    bet2 = int("Second Number: ")
+    bet3 = int("Third Number: ")
+    bet4 = int("Four Number: ")
+    bet5 = int("Five Number: ")
+    bet6 = int("Six Number: ")
+    betlist=[]
+    betlist.append(bet1,bet2,bet3,bet4,bet5,bet6)
     print("Playing... ")
     sleep(3)
-    num1=randint(1,6)
-    num2=randint(1,6)
+    num1=randint(1,37)
 
     print("1st cube: " + str(num1) + "\n2nd cube: " + str(num2))
 
