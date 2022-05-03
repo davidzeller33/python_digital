@@ -24,8 +24,14 @@ lotterynumbers.sort()
 print(lotterynumbers)
 '''
 
-listOfElems = ['Hello', 'Ok', 'is', 'Ok', 'test', 'this', 'is', 'a', 'test']
-result = checkifdup
+def checkIfDuplicates_3(listOfElems):
+    ''' Check if given list contains any duplicates '''
+    for elem in listOfElems:
+        if listOfElems.count(elem) > 1:
+            return True
+    return False
+list = ['Hello', 'Ok', 'is', 'test', 'this', 'a']
+result = checkIfDuplicates_3(list)
 if result:
     print('Yes, list contains duplicates')
 else:

@@ -34,6 +34,18 @@ for i in range(turns):
     bet6 = int("Six Number: ")
     betlist=[]
     betlist.append(bet1,bet2,bet3,bet4,bet5,bet6)
+        def checkIfDuplicates_3(listOfElems):
+            ''' Check if given list contains any duplicates '''
+            for elem in listOfElems:
+                if listOfElems.count(elem) > 1:
+                    return True
+            return False
+
+        result = checkIfDuplicates_3(betlist)
+        if result:
+            print('Yes, list contains duplicates')
+        else:
+            print('No duplicates found in list')
     print("Playing... ")
     sleep(3)
     num1=randint(1,37)
