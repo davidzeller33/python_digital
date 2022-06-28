@@ -1,4 +1,4 @@
-from random import randint
+
 from time import sleep
 '''
 bet1 = int(input("Enter your first number between 1 and 37: "))
