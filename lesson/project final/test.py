@@ -36,3 +36,14 @@ if result:
     print('Yes, list contains duplicates')
 else:
     print('No duplicates found in list')
+
+    if hits == 6:
+        price = price + 1000
+    elif hits == 5:
+        price = price + 100
+    elif hits == 4:
+        price = price + 40
+    elif hits == 3:
+        price = price + 20
+    else:
+        price = price
